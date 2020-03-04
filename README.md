@@ -8,7 +8,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 Get my config
 ```
-wget -O ~/.zshrc <insert file link here>
+wget -O ~/.zshrc https://raw.githubusercontent.com/BeanGreen247/zsh-config/master/zshrc
 ```
 Change your default Shell to zsh
 ```
