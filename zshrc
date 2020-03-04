@@ -10,7 +10,6 @@ HYPHEN_INSENSITIVE="false"
 # DISABLE_LS_COLORS="true"
 # DISABLE_AUTO_TITLE="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-HIST_STAMPS="hh:mm:ss"
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git docker debian go npm python pyenv ruby vscode)
