@@ -11,7 +11,7 @@ setopt ALL_EXPORT
 # Set/unset  shell options
 setopt   notify globdots correct pushdtohome cdablevars autolist
 setopt   correctall autocd recexact longlistjobs
-setopt   autoresume histignoredups pushdsilent 
+setopt   autoresume histignoredups pushdsilent
 setopt   autopushd pushdminus extendedglob rcquotes mailwarning
 unsetopt bgnice autoparamslash
 
@@ -44,7 +44,7 @@ HIST_STAMPS="yyyy-mm-dd"
 HISTFILE=~/.zsh_history_TM
 
 # Custom alias
-alias freeupspace='sudo apt clean -y && sudo apt autoremove -y && sudo apt autoclean && rm -rfv ~/.cache/thumbnails/* && rm -rfv trash:///*'
+alias freeupspace='sudo apt clean -y && sudo apt autoremove -y && sudo apt autoclean && rm -rfv ~/.cache/*'
 alias mkbuild='rm -rf build && mkdir build && cd build && ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers && make -j4'
 alias mkinstall='sudo make install'
 alias dl='wget -r -e robots=off -nc -np'
@@ -59,7 +59,7 @@ alias upgrade='sudo apt upgrade'
 alias reboot='sudo reboot'
 alias poweroff='sudo poweroff'
 
-## git 
+## git
 
 alias gitCommands="alias|grep git"
 alias commands=gitCommands
