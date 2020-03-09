@@ -10,6 +10,10 @@ Get my config
 ```
 wget -O ~/.zshrc https://raw.githubusercontent.com/BeanGreen247/zsh-config/master/zshrc
 ```
+Get my zprofile
+```
+wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/zsh-config/master/zprofile
+```
 Change your default Shell to zsh
 ```
 chsh -s $(which zsh)
