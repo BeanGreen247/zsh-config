@@ -8,11 +8,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 Get my config
 ```
-wget -O ~/.zshrc https://raw.githubusercontent.com/BeanGreen247/zsh-config/master/zshrc
+wget -O ~/.zshrc https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/zshrc
 ```
 Get my zprofile
 ```
-wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/zsh-config/master/zprofile
+wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/zprofile
 ```
 Change your default Shell to zsh
 ```
