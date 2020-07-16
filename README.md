@@ -14,6 +14,10 @@ Get my zprofile
 ```
 wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/zprofile
 ```
+Get my xinitrc
+```
+wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/xinitrc
+```
 Change your default Shell to zsh
 ```
 chsh -s $(which zsh)
