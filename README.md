@@ -16,7 +16,7 @@ wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/dotfiles/mast
 ```
 Get my xinitrc
 ```
-wget -O ~/.zprofile https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/xinitrc
+wget -O ~/.xinitrc https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/zsh/xinitrc
 ```
 Change your default Shell to zsh
 ```
