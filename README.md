@@ -8,7 +8,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 Install via pacman
 ```
-sudo pacman -S zsh zsh-doc zsh-autosuggestions zsh-history-substring-search zsh-completions
+sudo pacman -S zsh zsh-doc zsh-autosuggestions zsh-history-substring-search zsh-completions zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search
 ```
 Get my config
 ```
