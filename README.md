@@ -18,3 +18,15 @@ Change your default Shell to zsh
 ```
 chsh -s $(which zsh)
 ```
+in case these errors show up
+```
+.zshrc:source:112: no such file or directory: /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+.zshrc:source:145: no such file or directory: /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+do this
+```
+cd /usr/share/ 
+sudo mkdir -p /usr/share/zsh/plugins
+sudo mv zsh-autosuggestions zsh/plugins/
+sudo mv zsh-syntax-highlighting zsh/plugins/
+```
