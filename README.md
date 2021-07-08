@@ -30,3 +30,7 @@ sudo mkdir -p /usr/share/zsh/plugins
 sudo mv zsh-autosuggestions zsh/plugins/
 sudo mv zsh-syntax-highlighting zsh/plugins/
 ```
+For a blue color scheme
+```
+PROMPT="%f%F{blue}{%F{cyan}%*%f%F{blue}}%f%F{azure}%m%f%F{blue}:%F{white}%~ %f%F{teal}%n %f%F{cyan}$ %F{white}%"
+```
